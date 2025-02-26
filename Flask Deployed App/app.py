@@ -25,6 +25,7 @@ def prediction(image_path):
     index = np.argmax(output)
     return index
 
+# lorem
 
 app = Flask(__name__)
 
